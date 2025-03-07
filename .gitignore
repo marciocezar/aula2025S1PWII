@@ -1,0 +1,29 @@
+# Dependências de node_modules
+/node_modules/
+package-lock.json
+
+# Diretórios de build
+/dist/
+/build/
+
+# Arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Arquivos de configuração do editor
+/.idea/
+/.vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache
+/.cache
+
+# Outros arquivos temporários
+*.swp
+*.swo
