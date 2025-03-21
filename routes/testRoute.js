@@ -7,5 +7,6 @@ router.get('/check', testController.validarGet);
 
 router.post('/test', testController.testePost);
 router.post('/check', testController.validarPost);
+
 module.exports = router;
 
