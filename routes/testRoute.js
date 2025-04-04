@@ -8,5 +8,8 @@ router.get('/check', testController.validarGet);
 router.post('/test', testController.testePost);
 router.post('/check', testController.validarPost);
 
+router.put('/test', testController.testePut);
+router.put('/check', testController.validarPut);
+
 module.exports = router;
 

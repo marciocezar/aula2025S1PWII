@@ -1,3 +1,5 @@
+const User = require('../models/user');
+
 exports.listUsersGet = async (req, res) => {
     try {
         const result = "List Users OK.";

@@ -36,3 +36,24 @@ exports.validarPost = async (req, res) => {
         res.status(424).send(message + error.message)
     }
 };
+
+
+
+exports.testePut = async (req, res) => {
+    try {
+        const result = "Teste Put OK.";
+        return res.status(200).json({ message: result });
+    } catch (error) {
+        const message = "A solicitação falhou: "
+        res.status(424).send(message + error.message)
+    }
+};
+exports.validarPut = async (req, res) => {
+    try {
+        const result = "Validar Put OK...";
+        return res.status(200).json({ message: result });
+    } catch (error) {
+        const message = "A solicitação falhou: "
+        res.status(424).send(message + error.message)
+    }
+};

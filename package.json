@@ -12,14 +12,25 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
   "nodemonConfig": {
-    "watch": ["src", ".", ".env"],
-    "ignore": ["node_modules", ".git", "logs", "uploads"],
+    "watch": [
+      "src",
+      ".",
+      ".env"
+    ],
+    "ignore": [
+      "node_modules",
+      ".git",
+      "logs",
+      "uploads"
+    ],
     "ext": "js,json,end,html,css,txt"
   }
 }
