@@ -29,9 +29,3 @@ exports.listUserGet = async (req, res) => {
         res.status(424).send(error.message)
     }
 };
-
-/// Proximo:  
-/// 1-Login dos usuários
-/// 2-Deletar os usuários
-/// 3-Inserir os usuários
-/// 4-Atualizar os usuários
