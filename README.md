@@ -1,15 +1,9 @@
-# Proximo:  
-## 1-Login dos usuários / Novo usuário com hash (registro)  *****
-## 2-Deletar os usuários
-## 3-Inserir os usuários
-## 4-Atualizar os usuários
-
 ## Estrutura do Projeto
 product-api/
 ├── config/
 │   └── config.js *
 ├── controllers/
-│   └── authController.js **
+│   └── authController.js *
 │   └── productController.js
 │   └── testController.js *
 │   └── userController.js *
@@ -18,7 +12,7 @@ product-api/
 │   └── user.js *
 ├── routes/
 │   └── testRoute.js *
-│   └── authRoutes.js **
+│   └── authRoutes.js *
 │   └── productRoutes.js
 │   └── userRoutes.js *
 ├── middlewares/
@@ -29,3 +23,5 @@ product-api/
 ├── app.js * 
 ├── package.json *
 └── server.js *
+
+( * ) Done 
